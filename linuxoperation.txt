@@ -1,0 +1,16 @@
+
+1.git init Initialized empty Git repository in "/Users/michael/learngit/.git/" ； 创建一个版本库 而且告诉你是一个空的仓库（empty Git repository）
+2.git add +文件名 ； 把文件添加到仓库：或 向工作区提交（暂存区）
+3. git commit -m "提交描述" ；  把文件提交到仓库：
+4. git status   ；命令可以让我们时刻掌握仓库当前的状态 
+5. git diff +文件名 ；就是查看和上次版本的不同之处 即修改之处
+6. git log  ； 命令显示从最近到最远的提交日志
+7. git reset --hard HEAD^ ；用HEAD表示当前版本，也就是最新的提交3628164...882e1e0（注意我的提交ID和你的肯定不一样），上一个版本就是HEAD^，上上一个版本就是HEAD^^，当然往上100个版本写100个^比较容易数不过来，所以写成HEAD~100。
+8. git reset --hard +版本ID ； 指定回到某个版本
+9. git reflog ；用来记录你的每一次命令
+10.git checkout -- +文件名 ；丢弃工作区的修改，文件在工作区的修改全部撤销，无论工作区是修改还是删除，都可以“一键还原”。
+11.git rm test.txt ；删除test.txt
+12.
+13.
+14.
+15.
